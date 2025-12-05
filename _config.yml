@@ -13,11 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 이주원의 기술블로그
-email: 
+title: 개발 블로그
+email: virtue5321@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   웹개발자 취준생의 기술블로그입니다. 프론트엔드, 백엔드, 개발 경험을 공유합니다.
-twitter_username: 
 github_username: virtuebb
 minimal_mistakes_skin: "dark"
 search: true
@@ -102,3 +101,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Custom sass
+sass:
+  sass_dir: _sass
+  style: compressed

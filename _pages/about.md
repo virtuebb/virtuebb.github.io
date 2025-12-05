@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-title: "About"
 ---
 
 ## 👋 안녕하세요!
@@ -16,8 +15,8 @@ title: "About"
 ## 🛠️ 기술 스택
 
 - **Frontend**: HTML, CSS, JavaScript, React
-- **Backend**: Node.js, Python
-- **Tools**: Git, VS Code
+- **Backend**: SpringBoot, Mybatis, Oracle, jsp
+- **Tools**: Git, VS Code, STS, Eclipse
 
 ## 📝 이 블로그에 대해
 
