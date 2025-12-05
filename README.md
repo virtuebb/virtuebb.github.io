@@ -1,27 +1,39 @@
-# Minimal Mistakes remote theme starter
+# 이주원의 기술블로그
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+웹개발자 취준생 이주원의 기술블로그입니다.
 
-Contains basic configuration to get you a site with:
+## 📖 블로그 정보
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- **Theme**: Minimal Mistakes (Dark Mode)
+- **Platform**: GitHub Pages + Jekyll
+- **작성자**: 이주원
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## 🌐 연락처
+
+- **GitHub**: [virtuebb](https://github.com/virtuebb)
+- **Instagram**: [@your_instagram](https://instagram.com/)
+
+## 📝 블로그 특징
+
+- 웹 개발 관련 글, 경험, 팁 공유
+- 프론트엔드 및 백엔드 개발 내용
+- 개발 도구 및 기술 스택 소개
+- 카테고리 및 태그 분류
 
 ---
 
-## Troubleshooting
+## 로컬 개발
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+```bash
+# Jekyll 설치
+bundle install
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+# 로컬 서버 실행
+bundle exec jekyll serve
+```
+
+`http://localhost:4000`에서 확인할 수 있습니다.
+
+---
+
+감사합니다! 💻
