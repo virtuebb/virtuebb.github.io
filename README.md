@@ -25,9 +25,6 @@
 ## 로컬 개발
 
 ```bash
-# Jekyll 설치
-bundle install
-
 # 로컬 서버 실행
 bundle exec jekyll serve
 ```
