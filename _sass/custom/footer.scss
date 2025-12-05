@@ -24,4 +24,36 @@
 .page__footer-copyright {
   text-align: center;
 }
+
+/* 추가 선택자: 테마에 따라 다른 클래스명을 사용할 수 있어 중앙정렬이 안되는 경우를 처리 */
+footer,
+.site-footer,
+.site-footer .container,
+.page__footer,
+.page-footer {
+  text-align: center !important;
 }
+
+.site-footer .site-footer-links,
+.page__footer-follow,
+.site-footer .site-meta,
+.site-footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.site-footer .site-meta {
+  margin-top: 8px;
+}
+
+/* 아이콘/링크 세로 정렬 보정 */
+.site-footer .site-footer-links a,
+.page__footer-follow a {
+  display: inline-flex;
+  align-items: center;
+}
+
