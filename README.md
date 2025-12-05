@@ -29,8 +29,6 @@
 bundle exec jekyll serve
 ```
 
-`http://localhost:4000`에서 확인할 수 있습니다.
-
 ---
 
 감사합니다! 💻
